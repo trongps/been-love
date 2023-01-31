@@ -4,6 +4,22 @@ img {
   max-width: 100%;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  color: rgba(0, 0, 0, 0.653);
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  text-shadow: 0 .2px .3px rgba(0, 0, 0, 0.353);
+  background-size: cover;
+}
+
 .details{
   background-color: white;
   padding: 10px 10px;
@@ -17,8 +33,8 @@ img {
   padding: 1rem;
   width: 76%;
   border-radius: 26px;
-  background:  #d77492 repeat-x center /contain;
-  /* url(/img/background.jpg) linear-gradient(0, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), */
+  background: url(/img/background.jpg) repeat-x center /contain;
+  /* linear-gradient(0, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), */
 }
 
 .about {
@@ -131,21 +147,7 @@ img {
   animation: heartBeat 1s ease-in-out infinite;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;;
-  background-color: #f8f8f8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-height: 100vh;
-  color: rgba(0, 0, 0, 0.653);
-  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
-  text-shadow: 0 .2px .3px rgba(0, 0, 0, 0.353);
-  background-size: cover;
-}
+
 
 @keyframes heartBeat {
   0% {
@@ -169,8 +171,8 @@ body {
   .box {
     width: 84%;
     margin-bottom: 2rem;
-    background:#d77492  repeat-y center /contain;
-    /* linear-gradient(0, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/img/background.jpg) */
+    background:linear-gradient(0, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/img/background.jpg) repeat-y center /contain;
+
   }
 }
 
@@ -178,8 +180,8 @@ body {
   .box {
     width: 84%;
     margin-bottom: 2rem;
-    background: #d77492 repeat-x /contain;
-    /* linear-gradient(0, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/img/background.jpg) */
+    background:linear-gradient(0, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/img/background.jpg) repeat-x /contain;
+
   }
 
   .title {
