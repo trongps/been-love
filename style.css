@@ -1,23 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400&subset=vietnamese');
 
-
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;;
-  background-color: #f8f8f8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-height: 100vh;
-  color: rgba(0, 0, 0, 0.653);
-  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
-  text-shadow: 0 .2px .3px rgba(0, 0, 0, 0.353);
-  background-size: cover;
-}
-
 img {
   max-width: 100%;
 }
@@ -147,6 +129,22 @@ img {
   transform-origin: 50% 50%;
   opacity: .8;
   animation: heartBeat 1s ease-in-out infinite;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  color: rgba(0, 0, 0, 0.653);
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  text-shadow: 0 .2px .3px rgba(0, 0, 0, 0.353);
+  background-size: cover;
 }
 
 @keyframes heartBeat {
