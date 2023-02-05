@@ -181,7 +181,6 @@ body {
     width: 84%;
     margin-bottom: 2rem;
     background:linear-gradient(0, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/img/background.jpg) repeat-x /contain;
-
   }
 
   .title {
